@@ -9,11 +9,10 @@ html {
   height: 25px;
   text-align: center;
   padding-top: 25px;
-  padding-botton: 25px;
+  padding-bottom: 25px;
+  margin-top: 15px;
 }
 
-.app {
-}
 #number-form {
   margin: auto;
 
