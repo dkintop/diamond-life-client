@@ -19,8 +19,16 @@ class InputHandler {
   }
 
   renderOutput(integer) {
-    const box = document.createElement("div");
-    box.innerHTML = `${integer}`;
-    document.body.appendChild(box);
+    // const box = document.createElement("div");
+    // box.innerHTML = `${integer}`;
+    // document.body.appendChild(box);
+    if (document.getElementById("output-container")) {
+      document.getElementById("output-container").innerHTML = `${integer}`;
+    } else {
+      const box = document.createElement("div");
+      box.id = "output-container";
+      box.innerHTML = `${integer}`;
+      document.body.appendChild(box);
+    }
   }
 }
