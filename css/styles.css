@@ -1,0 +1,22 @@
+html {
+  font-family: fantasy;
+  background-color: cornflowerblue;
+}
+#output-container {
+  background-color: aliceblue;
+  width: 25%;
+  margin: auto;
+  height: 25px;
+  text-align: center;
+  padding-top: 25px;
+  padding-botton: 25px;
+}
+
+.app {
+}
+#number-form {
+  margin: auto;
+
+  width: 25%;
+  margin: auto;
+}

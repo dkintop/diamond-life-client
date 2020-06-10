@@ -5,7 +5,6 @@ class Adapter {
   }
 
   postInput(input) {
-    console.log(input);
     return fetch(this.baseURL, {
       method: "post",
       headers: {
