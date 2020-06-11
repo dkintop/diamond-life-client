@@ -6,8 +6,8 @@ class InputHandler {
   }
   initBindingsAndEventListeners() {
     console.log("event bindings triggered");
-    this.form = document.getElementById("number-form");
-    this.form.addEventListener("submit", this.submitInputNumber.bind(this));
+    this.input = document.getElementById("input");
+    this.input.addEventListener("input", this.submitInputNumber.bind(this));
   }
 
   submitInputNumber(event) {
